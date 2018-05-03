@@ -1,5 +1,8 @@
-# -Introduction-to-Machine-Learning
-Machine learning is a subfield of artificial intelligence (AI). The goal of machine learning generally is to understand the structure of data and fit that data into models that can be understood and utilized by people.
+# Introdução a Classificação | Machine Learning
+
+Até agora vimos como a implementação do naive bayes funciona, ou seja, levando em consideração as informações do passado, ele da maiores preferência ao evento que aconteceu com mais frequência, portanto, se ele se deparar com um novo cliente que possui determinadas características e, baseado nas informações que ele já conhece, um mesmo cliente com as mesma características já comprou, provavelmente ele respondará que esse novo cliente comprará também.
+
+Além do Multinomial, vimos também o AdaBoost que tenta se adaptar de acordo com o algoritmo para achar o melhor resultado, rodamos tanto o Multinomial quanto o AdaBoost e vimos que dependendo do conjunto de dados cada algoritmo obtem um resultado diferente. Também implementamos os 2 algoritmos no mesmo código para testá-los ao mesmo tempo, e então, aquele que retornava o melhor resultado, isto é, o maior resultado, escolhíamos como o algoritmo vencedor. Tendo o vencedor em mãos, fazíamos mais um teste que é justamente um teste do mundo real, em outras palavras, pegávamos novos elementos que ele nunca tinha visto antes, ou seja, nem no seu treino e nem no teste, então pedíamos para ele prevêr para nós, pois dessa forma podemos ter a certeza como será o seu comportamento, resultado dada uma situação do mundo real.
 
 ## Getting Started
 
@@ -67,7 +70,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
